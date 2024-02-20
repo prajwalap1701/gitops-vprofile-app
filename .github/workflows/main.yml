@@ -19,7 +19,7 @@ jobs:
     - name: Setup java 11
       uses: actions/setup-java@v4
       with:
-        distribution: 'temurun'
+        distribution: 'temurin'
         java-version: '11'
 
   Build_and_Publish:
